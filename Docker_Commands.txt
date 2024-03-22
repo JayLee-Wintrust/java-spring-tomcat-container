@@ -1,0 +1,14 @@
+
+
+(step 1)
+
+docker build . -t multi-phase-test:v1 
+
+
+(step 2)
+
+docker run -p 8090:9090 multi-phase-test:v1
+
+
+
+
